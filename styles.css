@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{ 
+  padding:2vw;
+  background:#d43b0c;
+  display: flex;
+}
+
+
+h1, h2 {
+    text-align:center;
+    color:#808080;
+    display:block;
+    width:100%;
+    height:20%;
+    text-shadow: 1px 1px #808080; 
+    font-family:'Poppins', sans-serif; 
+    font-size:70px;
+    padding:1vw;
+}
+
+section {
+  height:auto;
+}
+
+.paragraph{
+    font-family:'Poppins', sans-serif; 
+    text-align: center;
+    font-size: 30px;
+    margin: 4vw;
+}
+
+
+.paragraph2{
+  font-family:'Poppins', sans-serif; 
+  text-align: center;
+  font-size: 20px;
+  margin: 2vw;
+}
+
+
+.paragraph3{
+  font-family:'Poppins', sans-serif; 
+  text-align: center;
+  font-size: 20px;
+  margin: 2vw;
+  color:#808080;
+}
+
+
+.container2 {
+  width: 80%;
+  margin:auto;
+  padding:3%;
+  background-color: #808080;
+  color: #ffff;
+  border-radius:5%
+}
+
+.container3 {
+  font-family:'Gwendolyn', cursiva;
+  font-size:35px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #808080;
+}
+
+footer {
+    width: 100%;
+    background-color:#d43b0c;
+    color: white;
+    padding: 1vw;
+}
+
+.paddingFooter {
+  padding:1%;
+}
+.iconsFooter {
+  color:black;
+}
+
+
+.displayInlineBlock {
+  display:inline-block;
+}
+
+.textAlingCenter {
+  text-align: center;
+}
+
+.padding-top {
+  padding-top:8%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*certificaciones*/
+.grande {
+ font-size: 40px;   
+}
+
+.bx-wrapper , img {
+    margin: 0 auto;
+    position: relative;
+}
+
+.courses {
+    font-size:25px;
+    text-align: center;
+    margin:2vw;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*contacto*/
+/*formulario*/
+
+form {
+  width: 100%;
+  height:auto;
+  display: block;
+  margin: 0 0 10% 0;
+  padding: 1vw;
+  background-color:#808080;
+  border: 4px dashed #5c5c5c;
+  color: #ffff;
+}
+
+.form {
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  padding: 2vw;
+}
+label {
+    display: block;
+    padding:40px;
+    margin: 0 auto; 
+    font-size: 30px;
+}
+
+ul#mistakes{
+    color:#ff0000;
+}
+
+.buttonForm {
+  background-color:#d43b0c;
+  font-size: 30px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#whoIAmButton,#whoIAmButtonClosed {
+  background-color:#d43b0c;
+  font-size: 15px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:800px){
+
+  label {
+    display: block;
+    font-size:25px;
+}
+
+.buttonForm {
+  background-color:#d43b0c;
+  font-size: 30px;
+  display: flex;
+  margin:10% auto;
+}
+
+header {
+  display: none;
+}
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*quien soy*/
+/*tabla*/
+
+.tablaVueJS {
+  padding:3vw;
+  
+}
+
+table {
+    border: 2px solid #d43b0c;
+    border-radius: 3px;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    margin: auto ;
+    width: 50%;
+    
+  }
+  
+  th {
+    background-color: #d43b0c;
+    color: rgba(255,255,255,0.66);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  th, td {
+    min-width: 120px;
+    padding: 10px 20px;
+  }
+  
+  th.active {
+    color: #fff;
+  }
+  
+  th.active .arrow {
+    opacity: 1;
+  }
+  
+  .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    opacity: 0.66;
+  }
+  
+  .arrow.asc {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #fff;
+  }
+  
+  .arrow.dsc {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+  }
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+  /*FOTO CV*/
+.photoCv {
+  width:350px;
+  height:450px;
+  display: block;
+  margin:0 auto;
+  padding: 3vw;
+  border-radius:30%
+} 
+
+.text1{
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+}
+
+.icons{
+  display:inline-block;
+  font-size:22px;
+  color:#808080;
+  align-items: center;
+  margin:auto;
+  padding:1vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttonStyle{
+ text-decoration: none; 
+ color: #000;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
